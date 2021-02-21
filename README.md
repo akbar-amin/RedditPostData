@@ -1,8 +1,6 @@
 ### About
 A tool for retrieving post data from Reddit and optionally writing the results into Google Sheets.
 
-The motivation for this project was to find some way to confront post data directly without needing to register an application with Reddit's API. 
-
 While there are plenty of libraries that provide easy interaction with Reddit's OAuth API, much of the time it feels like I'm fighting with these libraries to get the data I want. Personally, I find it easier and more effecient to confront the data source directly at the cost of convenience that external libraries provide. Additionally, the motivation for this was to only get post data, specifically for a school project. 
 
 The primary scraping method is done via HTTP requests; however, an additional method is implemented with Selenium. This was done just for fun, as I genuinely enjoy web automation. 
